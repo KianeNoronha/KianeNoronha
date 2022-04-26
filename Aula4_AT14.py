@@ -1,0 +1,5 @@
+nome=input('Qual o seu nome?')
+imoveis=float(input('Quantos imóveis você vendeu?'))
+valor=float(input('Qual o valor total de suas vendas?'))
+salario=(1500+200+imoveis+valor*0.05)
+print(salario,'é o seu salário final.')
